@@ -31,7 +31,6 @@ def mark_complete(task_id):
     # res.data contains the updated row(s)
     # print(res.data)  # should show the row if RLS allows it
     st.success("Task marked complete!")
-    get_tasks.clear()
     st.rerun()
 
     
